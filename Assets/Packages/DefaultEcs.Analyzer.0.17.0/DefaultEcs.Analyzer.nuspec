@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>DefaultEcs.Analyzer</id>
+    <version>0.17.0</version>
+    <authors>Paillat Laszlo</authors>
+    <developmentDependency>true</developmentDependency>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>logo.png</icon>
+    <projectUrl>https://github.com/Doraku/DefaultEcs.Analyzer</projectUrl>
+    <description>Roslyn analyzers for DefaultEcs users.</description>
+    <releaseNotes>## New features
+- added validation and code generation for AEntitySortedSetSystem
+- added check for World operations in entity systems
+- added DisableDefaultEcsSystemGenerator property to disable the system generator
+## Bug fixes
+- fixed CreateEntityContainer generating not non-nullable compliant code (#7)</releaseNotes>
+    <tags>gamedev game-development game-engine ecs entity-component-system</tags>
+    <repository type="git" url="https://github.com/Doraku/DefaultEcs.Analyzer.git" commit="b6a773a21abde332b7b5c9eb7520bf76db3c6b11" />
+  </metadata>
+</package>

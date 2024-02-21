@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdd3c55105344d70a764bf4f08ff4b05, type: 3}
+  m_Name: EntitiesRegistry
+  m_EditorClassIdentifier: 
+  _entries:
+  - _guid:
+      _guidLow: 5074907244108077116
+      _guidHigh: 17412521592998444176
+    _data:
+      Name: Player
+      Prefab: {fileID: 7975071002013383201, guid: 0607edb911b3b4e1281d71143dc4d865, type: 3}
+  - _guid:
+      _guidLow: 5308663613861033485
+      _guidHigh: 767750817527997357
+    _data:
+      Name: Enemy
+      Prefab: {fileID: 2287783169890196266, guid: f71779b0d4ec6436eaca80f574b44eef, type: 3}
+  - _guid:
+      _guidLow: 5163283146494308773
+      _guidHigh: 13476075720735521981
+    _data:
+      Name: Bullet
+      Prefab: {fileID: 8557908674497478355, guid: ce1e11ffb465142e08deb1934dd68b39, type: 3}
